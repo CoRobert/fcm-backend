@@ -7,7 +7,6 @@ app.use(express.json());
 // 🔐 Carga tu JSON de service account (descargado de Google Cloud)
 //const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 
-const admin = require("firebase-admin");
 
 admin.initializeApp({
   credential: admin.credential.cert({
