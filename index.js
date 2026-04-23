@@ -1,3 +1,5 @@
+console.log("ENV CHECK:", !!process.env.FIREBASE_SERVICE_ACCOUNT);
+
 const express = require('express');
 const admin = require('firebase-admin');
 
