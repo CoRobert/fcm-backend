@@ -1,4 +1,4 @@
-console.log("KEY:", process.env.FIREBASE_PRIVATE_KEY);
+console.log("ENV KEYS:", Object.keys(process.env));
 const express = require('express');
 const admin = require('firebase-admin');
 
